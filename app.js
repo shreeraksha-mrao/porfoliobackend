@@ -16,7 +16,7 @@ app.use(express.json()); // middleware for express to understand json
 
 app.use(cors(
     {
-        origin: "http://localhost:5173",
+        origin: "https://raksharao.vercel.app/",
         credentials:true
     }
 )); // npm i cors, used for cross origin resource sharing
